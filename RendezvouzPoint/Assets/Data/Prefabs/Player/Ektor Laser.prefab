@@ -98,6 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laserSpeed: 100
   laserDecay: 1
+  damage: 1
 --- !u!54 &2110283029746271932
 Rigidbody:
   m_ObjectHideFlags: 0

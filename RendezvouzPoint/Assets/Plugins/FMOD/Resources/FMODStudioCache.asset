@@ -20,6 +20,29 @@ MonoBehaviour:
   - Name: Desktop
     Value: 688
   Exists: 0
+--- !u!114 &-1719962160849041828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Revenant/Revenant_Cry_Short
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Revenant/Revenant_Cry_Short
+  guid: 4f69c3f0ffefe7449413b681edf75e1e
+  Banks:
+  - {fileID: 2381570644602022742}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3403
 --- !u!114 &-1639449227266604172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,9 +63,32 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 20
-  MaxDistance: 900
+  MinDistance: 4
+  MaxDistance: 10
   Length: 360
+--- !u!114 &-620989565484247905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Revenant/Revenant_Cry_Medium
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Revenant/Revenant_Cry_Medium
+  guid: e7ee09e03063774694a8c3d851e8db54
+  Banks:
+  - {fileID: 2381570644602022742}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4802
 --- !u!114 &-277476292132950251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,6 +107,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-267872763993228671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Revenant/Revenant_Cry_Long
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Revenant/Revenant_Cry_Long
+  guid: dbd3e6a7553621438af4ebe0895309dc
+  Banks:
+  - {fileID: 2381570644602022742}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5562
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,13 +147,40 @@ MonoBehaviour:
   - {fileID: 2381570644602022742}
   EditorEvents:
   - {fileID: -1639449227266604172}
+  - {fileID: 1446358417337748545}
+  - {fileID: -1719962160849041828}
+  - {fileID: -267872763993228671}
+  - {fileID: -620989565484247905}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2381570644602022742}
   StringsBanks:
   - {fileID: 2248581181222525945}
-  stringsBankWriteTime: 637146779592181528
+  stringsBankWriteTime: 637156527267532310
   cacheVersion: 3
+--- !u!114 &1446358417337748545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Revenant/Revenant_Death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Revenant/Revenant_Death
+  guid: 429689c49269204abda698bd41f8f750
+  Banks:
+  - {fileID: 2381570644602022742}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1400
 --- !u!114 &2248581181222525945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,11 +195,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:/Program Files/FMOD SoundSystem/FMOD Studio 2.00.06/projects/RendezvouzPoint/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637146779592181528
+  lastModified: 637156527267532310
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 746
+    Value: 948
   Exists: 1
 --- !u!114 &2381570644602022742
 MonoBehaviour:
@@ -119,11 +215,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:/Program Files/FMOD SoundSystem/FMOD Studio 2.00.06/projects/RendezvouzPoint/Build/Desktop/Master.bank
   SubDir: 
-  lastModified: 637146779592161520
+  lastModified: 637156527267502285
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 40544
+    Value: 626624
   Exists: 1
 --- !u!114 &5033809224606712978
 MonoBehaviour:

@@ -7,7 +7,7 @@ public class Revenant : MonoBehaviour {
     private SpriteRenderer spriteRenderer;
 
     [SerializeField]float speed = 4f;
-    [SerializeField]float frequency = 20.0f;  // Speed of sine movement
+    [SerializeField]float frequency = 5.0f;  // Speed of sine movement
     [SerializeField]float magnitude = 0.5f;   // Size of sine movement
     private Vector3 axis;
     private Vector3 pos;
